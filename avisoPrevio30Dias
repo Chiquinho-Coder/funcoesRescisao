@@ -1,0 +1,5 @@
+public static Double avisoPrevio (Double salario2){
+  Double bonus1 = salario2*30;
+  return Math.floor(bonus1);
+
+  }
