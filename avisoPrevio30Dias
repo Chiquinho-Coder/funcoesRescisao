@@ -1,5 +1,11 @@
-public static Double avisoPrevio (Double salario2){
+public static Double avisoPrevio (Double salario2, int dias){
   Double bonus1 = salario2*30;
-  return Math.floor(bonus1);
+  Double feriasPrev = salario2 + ((1/3) * salario2);
+  feriasPrev = (feriasPrev/30)*dias;
+  Double decimoPrev = (salario2/12) * dias;
+  
+  Double avisoPrevF = decimoPrev + feriasPrev + bonus1;
+  return Math.floor(avisoPrevf);
+  
 
   }
