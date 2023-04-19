@@ -1,0 +1,5 @@
+public static Double indenisacao (Double salario5){
+  Double inde = 1*salario5;
+  return Math.floor(inde);
+
+  }
