@@ -1,0 +1,5 @@
+public static Double saldoSalario (Double salario, int dias){
+  Double saldo = (salario/30)*dias;
+  return Math.floor(saldo);
+
+  }
