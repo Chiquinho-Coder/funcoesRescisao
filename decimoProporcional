@@ -1,0 +1,5 @@
+public static Double decimoProporcional (Double salario3, int diast){
+  double decimo = (salario3/12) * diast;
+  return Math.floor(decimo);
+
+  }
